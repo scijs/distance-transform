@@ -23,7 +23,7 @@ require("save-pixels")(x, "png").pipe(process.stdout)
 
 Which creates the following image:
 
-<img src="example/example.png">
+<img src="https://raw.github.com/mikolalysenko/distance-transform/master/example/example.png">
 
 Install
 =======
