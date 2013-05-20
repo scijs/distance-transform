@@ -1,6 +1,6 @@
 {
   "name": "distance-transform",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Distance transforms for ndarrays",
   "main": "dt.js",
   "directories": {
@@ -8,15 +8,15 @@
     "test": "test"
   },
   "dependencies": {
-    "almost-equal": "~0.0.0",
     "bisect": "~0.0.0",
     "cwise": "~0.1.2",
     "ndarray": "~0.2.3",
     "ndarray-ops": "~0.1.3",
-    "save-pixels": "~0.1.0",
     "typedarray-pool": "~0.1.1"
   },
   "devDependencies": {
+    "almost-equal": "~0.0.0",
+    "save-pixels": "~0.1.0",
     "tap": "~0.4.3"
   },
   "scripts": {
