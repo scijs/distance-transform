@@ -1,0 +1,46 @@
+{
+  "name": "distance-transform",
+  "version": "0.0.0",
+  "description": "Distance transforms for ndarrays",
+  "main": "dt.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "dependencies": {
+    "almost-equal": "~0.0.0",
+    "bisect": "~0.0.0",
+    "cwise": "~0.1.2",
+    "ndarray": "~0.2.3",
+    "ndarray-ops": "~0.1.3",
+    "save-pixels": "~0.1.0",
+    "typedarray-pool": "~0.1.1"
+  },
+  "devDependencies": {
+    "tap": "~0.4.3"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/distance-transform.git"
+  },
+  "keywords": [
+    "distance",
+    "transform",
+    "euclidean",
+    "manhattan",
+    "taxicab",
+    "morphology",
+    "chebyshev",
+    "chessboard",
+    "lp",
+    "lebesgue",
+    "metric"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "532a87a93df33505764c51e02656c57d0bb573ab"
+}
