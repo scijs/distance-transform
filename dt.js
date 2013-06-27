@@ -51,9 +51,9 @@ module.exports = function distanceTransform(array, p) {
   
   //Allocate scratch buffers
   var b0_t = pool.mallocDouble(size)
-    , b0 = ndarray.ctor(b0_t, shape.slice(0), stride.slice(0), 0)
+    , b0 = ndarray(b0_t, shape.slice(0), stride.slice(0), 0)
     , b1_t = pool.mallocDouble(size)
-    , b1 = ndarray.ctor(b1_t, shape.slice(0), stride.slice(0), 0)
+    , b1 = ndarray(b1_t, shape.slice(0), stride.slice(0), 0)
     , s_q = pool.mallocUint32(stack_size)
     , t_q = pool.mallocUint32(stack_size)
   

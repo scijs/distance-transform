@@ -2,7 +2,7 @@
 var ndarray = require("ndarray")
 var ops = require("ndarray-ops")
 var dt = require("../dt.js")
-var zeros = ndarray.zeros
+var zeros = require("zeros")
 var almostEqual = require("almost-equal")
 
 require("tap").test("distance-transform", function(t) {
