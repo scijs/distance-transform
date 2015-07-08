@@ -5,7 +5,7 @@ var dt = require("../dt.js")
 var zeros = require("zeros")
 var almostEqual = require("almost-equal")
 
-require("tap").test("distance-transform", function(t) {
+require("tape")("distance-transform", function(t) {
 
   //1D
   var x = zeros([2])
