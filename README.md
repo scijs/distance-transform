@@ -5,8 +5,7 @@ distance-transform
 * https://github.com/parmanoir/Meijster-distance
 * http://dissertations.ub.rug.nl/FILES/faculties/science/2004/a.meijster/c2.pdf
 
-[![build status](https://secure.travis-ci.org/scijs/distance-transform.png)](htt
-p://travis-ci.org/scijs/distance-transform)
+[![build status](https://secure.travis-ci.org/scijs/distance-transform.png)](http://travis-ci.org/scijs/distance-transform)
 
 ## Example
 
