@@ -1,33 +1,37 @@
 {
   "name": "distance-transform",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Distance transforms for ndarrays",
   "main": "dt.js",
   "directories": {
     "example": "example",
     "test": "test"
   },
+  "browserify": {
+    "transform": ["cwise"]
+  },
   "dependencies": {
-    "bisect": "~0.0.0",
-    "cwise": "~0.3.2",
-    "ndarray": "~1.0.0",
-    "ndarray-ops": "~1.1.0",
-    "typedarray-pool": "~0.1.1"
+    "bisect": "^1.0.0",
+    "cwise": "^1.0.6",
+    "ndarray": "^1.0.18",
+    "ndarray-ops": "^1.2.2",
+    "typedarray-pool": "^1.1.0"
   },
   "devDependencies": {
-    "almost-equal": "~0.0.0",
-    "tap": "~0.4.3",
-    "save-pixels": "~0.2.0",
-    "zeros": "0.0.0"
+    "almost-equal": "^1.0.0",
+    "tape": "^4.0.0",
+    "save-pixels": "^2.2.0",
+    "zeros": "^1.0.0"
   },
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mikolalysenko/distance-transform.git"
+    "url": "git://github.com/scijs/distance-transform.git"
   },
   "keywords": [
+    "scijs",
     "distance",
     "transform",
     "euclidean",
@@ -43,5 +47,8 @@
   "author": "Mikola Lysenko",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "532a87a93df33505764c51e02656c57d0bb573ab"
+  "gitHead": "532a87a93df33505764c51e02656c57d0bb573ab",
+  "bugs": {
+    "url": "https://github.com/scijs/distance-transform/issues"
+  }
 }

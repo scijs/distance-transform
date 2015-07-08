@@ -5,9 +5,10 @@ distance-transform
 * https://github.com/parmanoir/Meijster-distance
 * http://dissertations.ub.rug.nl/FILES/faculties/science/2004/a.meijster/c2.pdf
 
+[![build status](https://secure.travis-ci.org/scijs/distance-transform.png)](htt
+p://travis-ci.org/scijs/distance-transform)
 
-Example
-=======
+## Example
 
 ```javascript
 //Generate some shape as a binary voxel image
@@ -21,16 +22,17 @@ require("distance-transform")(x)
 require("save-pixels")(x, "png").pipe(process.stdout)
 ```
 
-Which creates the following image:
+#### Output
 
 <img src="https://raw.github.com/mikolalysenko/distance-transform/master/example/example.png">
 
-Install
-=======
+## Install
+Install using [npm](https://www.npmjs.com/):
 
     npm install distance-transform
-    
-## `require("distance-transform")(array[, p])`
+
+## API
+#### `require("distance-transform")(array[, p])`
 Performs a distance transform of `array` in place using Meijster's algorithm.
 
 * `array` is the array to transform
@@ -45,6 +47,5 @@ For different values of p you get different transforms
 
 `array` is updated in place and gets the distance values.
 
-Credits
-=======
+## License
 (c) 2013 Mikola Lysenko. MIT License.
