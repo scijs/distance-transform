@@ -11,7 +11,7 @@ distance-transform
 
 ```javascript
 //Generate some shape as a binary voxel image
-var x = require("ndarray").zeros([256, 256])
+var x = require("zeros")([256, 256])
 x.set(128, 128, 1)
 
 //Distance transform x in the Euclidean metric
