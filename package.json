@@ -1,6 +1,6 @@
 {
   "name": "distance-transform",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Distance transforms for ndarrays",
   "main": "dt.js",
   "directories": {
